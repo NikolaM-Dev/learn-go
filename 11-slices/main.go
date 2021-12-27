@@ -12,7 +12,7 @@ func countries() []string {
 	countries := []string{"USA", "Singapore", "Germany", "India", "Australia"}
 	countriesNeeded := countries[:len(countries)-2]
 	countriesCpy := make([]string, len(countriesNeeded))
-	copy(countriesCpy, countriesNeeded) // copies neededCountries to countriesCpy
+	copy(countriesCpy, countriesNeeded) // copies countriesNeeded to countriesCpy
 	return countriesCpy
 }
 
